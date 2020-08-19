@@ -7,6 +7,8 @@ use std::fs::File;
 use std::io::prelude::*;
 use std::io::{Error as IoError, ErrorKind as IoErrorKind, Write};
 
+// Reinstating Rust in SBE
+
 pub fn main() {
     ::std::process::exit(match run_car_example() {
                              Ok(_) => 0,
